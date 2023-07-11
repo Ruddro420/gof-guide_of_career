@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Development",
+        "description": "Learn Web Development and App Development, Build a tech-career now",
+        "icon": "../public/cat-img/dev.png",
+        "subCategory_1": [
+            {
+                "name": "Web Development"
+            },
+            {
+                "name": "App Development"
+            }
+
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Design",
+        "description": "Design products, increase demand internationally",
+        "icon": "../public/cat-img/design.png",
+        "subCategory_1": [
+            {
+                "name": "UI UX"
+            },
+            {
+                "name": "Graphics Design"
+            }
+
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Digital Marketing",
+        "description": "Become a successful corporate person by taking business and marketing-related courses.",
+        "icon": "../public/cat-img/marketing.png",
+        "subCategory_1": [
+            {
+                "name": "Lead Generation"
+            },
+            {
+                "name": "Social Media Marketing"
+            },
+            {
+                "name": "Affiliate Marketing"
+            },
+            {
+                "name": "Drop Shipping"
+            }
+
+        ]
+    },
+    {
+        "id": 4,
+        "name": "AI & Machine Learning",
+        "description": "Empowering intelligence through AI and machine learning.",
+        "icon": "../public/cat-img/ai.png",
+        "subCategory_1": [
+            {
+                "name": "Problem Solving"
+            },
+            {
+                "name": "AI (Artificial intelligence)"
+            },
+            {
+                "name": "ML (Machine Learning)"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Common Sector",
+        "description": "Build up your skills and gather informative knowledge with modern technology",
+        "icon": "../public/cat-img/common.png",
+        "subCategory_1": [
+            {
+                "name": "AI Tools"
+            },
+            {
+                "name": "CV Writing"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Job Preparation",
+        "icon": "../public/cat-img/job.png",
+        "description": "Prepare yourself for success in the competitive job market",
+        "subCategory_1": [
+            {
+                "name": "Intern Job"
+            },
+            {
+                "name": "Remote Job"
+            },
+            {
+                "name": "Desk Job"
+            }
+        ]
+    }
+    
+]

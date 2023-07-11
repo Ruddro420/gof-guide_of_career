@@ -3,13 +3,14 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: 'Mukti', Arial, sans-serif !important; */
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(0, 0, 0, 0.87);
-  background-color: #ffffff;
+  color: rgba(255, 255, 255, 0.87);
+  background: rgb(15, 23, 42);
+  background: radial-gradient(circle, rgba(15, 23, 42, 1) 0%, rgba(0, 0, 0, 1) 35%, rgba(15, 23, 42, 1) 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,3 +19,42 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/* color code */
+
+nav {
+  background: transparent !important;
+  color: white;
+}
+
+/* category card */
+.category-card {
+  background: transparent !important;
+  border: 2px dotted #643EA7 !important;
+  border-radius: 20px;
+}
+
+.main-background {
+  background: rgb(15, 23, 42);
+  background: radial-gradient(circle, rgba(15, 23, 42, 1) 0%, rgba(0, 0, 0, 1) 35%, rgba(15, 23, 42, 1) 100%);
+
+}
+
+.main-content-container img {
+  width: 100%;
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+@media(max-width:900px) {
+  .video-container {
+    display: grid;
+    grid-template-columns: auto;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}

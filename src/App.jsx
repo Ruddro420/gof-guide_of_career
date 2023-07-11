@@ -1,20 +1,14 @@
-import { Alert } from 'flowbite-react'
-import './App.css'
+import { RouterProvider } from "react-router-dom"
+import { router } from './Route/route'
+
 
 function App() {
 
   return (
     <>
-     <Alert color="info">
-      <span>
-        <p>
-          <span className="font-medium">
-            Info alert!
-          </span>
-          Change a few things up and try submitting again.
-        </p>
-      </span>
-    </Alert>
+      <RouterProvider router={router}>
+
+      </RouterProvider>
     </>
   )
 }

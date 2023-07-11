@@ -1,0 +1,17 @@
+.category-design {
+    border: 4px dashed #643EA7 !important;
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+
+}
+
+.category-design:hover {
+    border: 2px solid #155E75 !important;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px #155E75;
+}
