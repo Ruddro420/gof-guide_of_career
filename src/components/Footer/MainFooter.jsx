@@ -4,7 +4,7 @@ import './MainFooter.css'
 const MainFooter = () => {
     return (
         <div>
-            <Footer className='flowbite-footer'>
+            <Footer className='flowbite-footer main-background'>
                 <div className="w-full grid max-w-screen-xl mx-auto">
                     <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4 place-content-stretch">
                         <div>
@@ -73,7 +73,7 @@ const MainFooter = () => {
                             </Footer.LinkGroup>
                         </div>
                     </div>
-                    <div className="w-full bg-white px-4 py-6 sm:flex sm:items-center sm:justify-between">
+                    <div className="w-full px-4 py-6 sm:flex sm:items-center sm:justify-between">
                         <Footer.Copyright
                             by="GOF™"
                             href="#"

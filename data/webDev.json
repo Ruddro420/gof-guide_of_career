@@ -2,35 +2,208 @@
     {
         "id": 1,
         "name": "Front End",
-        "language":[
+        "language": [
             {
                 "id": 1,
                 "name": "HTML",
                 "description": "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.",
                 "video": [
                     {
-                        "id":1,
+                        "id": 1,
                         "name": "Moshiur",
-                        "link":"https://www.youtube.com/embed/videoseries?list=PLm64fbD5OnxuObyOVSxcM0TUcBLDF2w64",
-                        "cLink":"https://www.youtube.com/@Moshiur"
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLm64fbD5OnxuObyOVSxcM0TUcBLDF2w64",
+                        "cLink": "https://www.youtube.com/@Moshiur"
                     },
                     {
-                        "id":2,
+                        "id": 2,
                         "name": "Hablu Programmer",
-                        "link":"https://www.youtube.com/embed/videoseries?list=PLNMnAEqLBwmo2aAHG1hT41QCgYV3366gp",
-                        "cLink":"https://www.youtube.com/@HabluProgrammer"
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLNMnAEqLBwmo2aAHG1hT41QCgYV3366gp",
+                        "cLink": "https://www.youtube.com/@HabluProgrammer"
                     },
                     {
-                        "id":3,
+                        "id": 3,
                         "name": "Procoder BD",
-                        "link":"https://www.youtube.com/embed/videoseries?list=PLSNRR4BKcowDF5Mf7zPznfRwfTzmZpSNL",
-                        "cLink":"https://www.youtube.com/@ProcoderBD"
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLSNRR4BKcowDF5Mf7zPznfRwfTzmZpSNL",
+                        "cLink": "https://www.youtube.com/@ProcoderBD"
                     }
-        
+                ]
+            },
+            {
+                "id": 2,
+                "name": "CSS",
+                "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.",
+                "video": [
+                    {
+                        "id": 1,
+                        "name": "Hablu Programmer",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLNMnAEqLBwmq4cvfIMWE9ZiAmndL5VOIM",
+                        "cLink": "https://www.youtube.com/@HabluProgrammer"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Stack Learner",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PL_XxuZqN0xVD3oeT3ckKBmnc7krm-SZl2",
+                        "cLink": "https://www.youtube.com/@StackLearner"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Moshiur",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLm64fbD5Onxvj4aifOC8P8U8inUqWzdSH",
+                        "cLink": "https://www.youtube.com/@Moshiur"
+                    }
+                ]
+            },
+
+            {
+                "id": 3,
+                "name": "SCSS",
+                "description": "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. SassScript is the scripting language itself",
+                "video": [
+                    {
+                        "id": 1,
+                        "name": "Procoder BD",
+                        "link": "https://www.youtube.com/embed/wv9YaPCo0IA",
+                        "cLink": "https://www.youtube.com/@ProcoderBD"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Stack Learner",
+                        "link": "https://www.youtube.com/embed/N3HPS_kFBVI",
+                        "cLink": "https://www.youtube.com/@StackLearner"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Learn with Sumit - LWS",
+                        "link": "https://www.youtube.com/embed/N3vG6Yt-e6k",
+                        "cLink": "https://www.youtube.com/@LearnwithSumit"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "BOOTSTRAP",
+                "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+                "video": [
+                    {
+                        "id": 1,
+                        "name": "Moshiur",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLm64fbD5OnxuWrqDWyObVkH_Y5R6Wg1wg",
+                        "cLink": "https://www.youtube.com/@Moshiur"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Stack Learner",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PL_XxuZqN0xVBr2NqbL3q71nk5FX8zB0nK",
+                        "cLink": "https://www.youtube.com/@StackLearner"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Procoder BD",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLSNRR4BKcowASvSK4qx9Nz9MNTJC9Up67",
+                        "cLink": "https://www.youtube.com/@ProcoderBD"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "TAILWIND",
+                "description": "Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables. ",
+                "video": [
+                    {
+                        "id": 1,
+                        "name": "Learn with Sumit - LWS",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLHiZ4m8vCp9P23SqlHL0QAqiwS_oCofV2",
+                        "cLink": "https://www.youtube.com/@LearnwithSumit"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Procoder BD",
+                        "link": "https://www.youtube.com/embed/7lmoLxbUENM",
+                        "cLink": "https://www.youtube.com/@ProcoderBD"
+                    },
+                    {
+                        "id": 2,
+                        "name": "College Wallah",
+                        "link": "https://www.youtube.com/embed/_9mTJ84uL1Q",
+                        "cLink": "https://www.youtube.com/@CollegeWallahbyPW"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "JAVASCRIPT",
+                "description": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
+                "video": [
+                    {
+                        "id": 1,
+                        "name": "Hablu Programmer",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLNMnAEqLBwmou27CnOjAS8TYTL0rgOCB2",
+                        "cLink": "https://www.youtube.com/@HabluProgrammer"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Stack Learner",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PL_XxuZqN0xVAJTV_1ZXwB1XIiFkK0ddZA",
+                        "cLink": "https://www.youtube.com/@StackLearner"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Learn with Sumit - LWS",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLHiZ4m8vCp9OkrURufHpGUUTBjJhO9Ghy",
+                        "cLink": "https://www.youtube.com/@LearnwithSumit"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "JQUERY",
+                "description": "jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+                "video": [
+                    {
+                        "id": 1,
+                        "name": "Moshiur",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLm64fbD5Onxtpvq--EAMfAHcn8h8_t3iw",
+                        "cLink": "https://www.youtube.com/@Moshiur"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Anisul Islam",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLgH5QX0i9K3pSJG9Hwjnykd0hLGEsW4DB",
+                        "cLink": "https://www.youtube.com/@anisul-islam"
+                    },
+                    {
+                        "id": 2,
+                        "name": "CodeWithHarry",
+                        "link": "https://www.youtube.com/embed/YFlx1C8XwR0",
+                        "cLink": "https://www.youtube.com/@CodeWithHarry"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "GITHUB",
+                "description": "GitHub, Inc. is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.",
+                "video": [
+                    {
+                        "id": 1,
+                        "name": "Hablu Programmer",
+                        "link": "https://www.youtube.com/embed/videoseries?list=PLNMnAEqLBwmqnr-hhIa2z-2janfklDV4A",
+                        "cLink": "https://www.youtube.com/@HabluProgrammer"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Procoder BD",
+                        "link": "https://www.youtube.com/embed/M-qSAdWFs9c",
+                        "cLink": "https://www.youtube.com/@ProcoderBD"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Learn with Sumit - LWS",
+                        "link": "https://www.youtube.com/embed/oe21Nlq8GS4",
+                        "cLink": "https://www.youtube.com/@LearnwithSumit"
+                    }
                 ]
             }
         ]
     }
-    
-
 ]

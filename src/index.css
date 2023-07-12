@@ -6,12 +6,10 @@
   /* font-family: 'Mukti', Arial, sans-serif !important; */
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background: rgb(15, 23, 42);
   background: radial-gradient(circle, rgba(15, 23, 42, 1) 0%, rgba(0, 0, 0, 1) 35%, rgba(15, 23, 42, 1) 100%);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -20,10 +18,14 @@
 }
 
 /* color code */
-
 nav {
   background: transparent !important;
   color: white;
+}
+
+h2,
+a {
+  color: white !important;
 }
 
 /* category card */
@@ -33,10 +35,46 @@ nav {
   border-radius: 20px;
 }
 
+/* Common Part */
 .main-background {
   background: rgb(15, 23, 42);
   background: radial-gradient(circle, rgba(15, 23, 42, 1) 0%, rgba(0, 0, 0, 1) 35%, rgba(15, 23, 42, 1) 100%);
+  color: white !important;
+}
 
+.main-border {
+  background: transparent !important;
+  border: 2px dotted #643EA7 !important;
+  border-radius: 20px;
+  color: white !important;
+}
+
+/* Common Part END */
+/* About Part */
+.about-img img {
+  height: 600px;
+  width: 600px;
+  margin: auto;
+}
+
+.border-b {
+  border-bottom: 2px dotted #643EA7 !important;
+}
+
+.hero-free-text {
+  border: 2px dashed #643EA7;
+  padding: 20px 25px;
+  margin: 10px;
+  color: #643EA7;
+  border-radius: 20px;
+}
+
+button {
+  background: transparent !important;
+  border: 2px dotted #643EA7 !important;
+  border-radius: 20px;
+  color: white !important;
+  margin: 10px;
 }
 
 .main-content-container img {
@@ -48,6 +86,11 @@ nav {
   grid-template-columns: auto auto;
   flex-wrap: wrap;
   gap: 30px;
+}
+
+.top-content img {
+  border: 2px dotted #643EA7 !important;
+  border-radius: 20px;
 }
 
 @media(max-width:900px) {

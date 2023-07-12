@@ -2,7 +2,7 @@ import TitleBar from "../../components/TitleBar/TitleBar";
 
 const WebDev = () => {
     return (
-        <div>
+        <div className="main-background">
             <TitleBar />
         </div>
     );

@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import WebDev from "../Pages/WebDev/WebDev";
 import AppDev from "../Pages/AppDev/AppDev";
 import UiUx from "../Pages/UiUx/UiUx";
+import About from "../Pages/About/About";
 
 export const router = createBrowserRouter([
     {
@@ -13,6 +14,10 @@ export const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home />,
+            },
+            {
+                path: "/about",
+                element: <About />,
             },
             {
                 path: "/web-development",

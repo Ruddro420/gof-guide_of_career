@@ -1,17 +1,59 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Button, Card, Tabs } from 'flowbite-react';
 import htmlData from '../../../data/webDev.json'
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 const FrontEnd = () => {
-    const [getHtmlData, setGetHtmlData] = useState([])
+    const [getData, setGetData] = useState([])
     const [htmlVideo, setHtmlVideo] = useState([])
+    const [cssVideo, setCssVideo] = useState([])
+    const [scssVideo, setScssVideo] = useState([])
+    const [bootsVideo, setBootsVideo] = useState([])
+    const [tailwindVideo, setTailwindVideo] = useState([])
+    const [jsVideo, setJsVideo] = useState([])
+    const [jqueryVideo, setJqueryVideo] = useState([])
+    const [githubVideo, setGithubVideo] = useState([])
+
+
+    useMemo(() => {
+        const findData = htmlData.filter(data => data.name === 'Front End')
+        findData.map(item => setGetData(item.language))
+    }, [])
+
+
+
     useEffect(() => {
-        htmlData.map(data => setGetHtmlData(data.language))
-        //get Video Data
-        getHtmlData.map(item => setHtmlVideo(item.video))
-    }, [getHtmlData])
-    console.log(htmlVideo);
+        //for HTML
+        const findHtml = getData.filter(cc => cc.name === 'HTML')
+        findHtml.map(item => setHtmlVideo(item.video))
+        //for Css
+        const findCss = getData.filter(cc => cc.name === 'CSS')
+        findCss.map(item => setCssVideo(item.video))
+        //for scss
+        const findScss = getData.filter(cc => cc.name === 'SCSS')
+        findScss.map(item => setScssVideo(item.video))
+        //for Bootstrap
+        const findBootstrap = getData.filter(cc => cc.name === 'BOOTSTRAP')
+        findBootstrap.map(item => setBootsVideo(item.video))
+        //for Tailwind
+        const findTailwind = getData.filter(cc => cc.name === 'TAILWIND')
+        findTailwind.map(item => setTailwindVideo(item.video))
+        //for Tailwind
+        const findJs = getData.filter(cc => cc.name === 'JAVASCRIPT')
+        findJs.map(item => setJsVideo(item.video))
+        //for jquery
+        const findJquery = getData.filter(cc => cc.name === 'JQUERY')
+        findJquery.map(item => setJqueryVideo(item.video))
+        //for github
+        const findGithub = getData.filter(cc => cc.name === 'GITHUB')
+        findGithub.map(item => setGithubVideo(item.video))
+    }, [])
+
+    console.log(cssVideo);
+
+
+
+
 
     return (
         <div className='text-center'>
@@ -19,7 +61,7 @@ const FrontEnd = () => {
                 <Tabs.Item active title="Know Here"
                 >
                     <p className='text-left'>
-                        ফ্রন্ট-এন্ড ওয়েব ডেভেলপমেন্ট হল একটি বহুমাত্রিক শৃঙ্খলা যা বিভিন্ন দক্ষতা এবং প্রযুক্তিকে অন্তর্ভুক্ত করে। এটির জন্য ডিজাইনের সংবেদনশীলতা, কোডিং দক্ষতা এবং একটি ব্যবহারকারী-কেন্দ্রিক মানসিকতার মিশ্রণ প্রয়োজন। ইন্টারনেট এবং ডিজিটাল প্ল্যাটফর্মের ক্রমাগত বৃদ্ধির সাথে, ফ্রন্ট-এন্ড ডেভেলপমেন্ট আকর্ষণীয় এবং ব্যবহারকারী-বান্ধব ওয়েবসাইট এবং অ্যাপ্লিকেশন তৈরির একটি গুরুত্বপূর্ণ দিক হয়ে থাকবে।
+                        খুব সহজ ভাষায় ফ্রন্ট এন্ড ডেভেলপমেন্ট হলো ইউজার এর জন্য দৃশ্যমান অংশ, যা ইউজার কতৃক ব্যবহৃত হয়। আর ব্যাক এন্ড ডেভেলপমেন্ট হলো ভিতরের কাজ যা সাধারন ওয়েবসাইট ব্যাবহারকারির অবগতিতে থাকে না।
                     </p>
                 </Tabs.Item>
                 {/* For HTML */}
@@ -29,15 +71,15 @@ const FrontEnd = () => {
                             htmlVideo.map(item => {
                                 return (
                                     <div key={item.id} className="single-video">
-                                        <Card>
+                                        <Card className='main-background main-border'>
                                             <iframe width="100%" height="300" src={item.link} title={item.name} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            <h5 className="text-2xl font-bold tracking-tight text-white">
                                                 <p>
                                                     {item.name}
                                                 </p>
                                             </h5>
                                             <p className="font-normal text-gray-700 dark:text-gray-400">
-                                                <Button gradientDuoTone="purpleToBlue"
+                                                <Button target="_blank" gradientDuoTone="purpleToBlue"
                                                     href={item.cLink}>Know More</Button>
                                             </p>
                                         </Card>
@@ -45,35 +87,177 @@ const FrontEnd = () => {
                                 )
                             })
                         }
-
                     </div>
                 </Tabs.Item>
-                <Tabs.Item
-                    title="CSS"
-                >
-                    <p>
-                        This is
-                        <span className="font-medium text-gray-800 dark:text-white">
-                            Settings tab's associated content
-                        </span>
-                        .
-                        Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-                        control the content visibility and styling.
-                    </p>
+                <Tabs.Item title="CSS">
+                    <div className="video-container">
+                        {
+                            cssVideo.map(item => {
+                                return (
+                                    <div key={item.id} className="single-video">
+                                        <Card className='main-background main-border'>
+                                            <iframe width="100%" height="300" src={item.link} title={item.name} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            <h5 className="text-2xl font-bold tracking-tight text-white">
+                                                <p>
+                                                    {item.name}
+                                                </p>
+                                            </h5>
+                                            <p className="font-normal text-gray-700 dark:text-gray-400">
+                                                <Button target="_blank" gradientDuoTone="purpleToBlue"
+                                                    href={item.cLink}>Know More</Button>
+                                            </p>
+                                        </Card>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
                 </Tabs.Item>
-                <Tabs.Item
-                    title="JAVASCRIPT"
-                >
-                    <p>
-                        This is
-                        <span className="font-medium text-gray-800 dark:text-white">
-                            Contacts tab's associated content
-                        </span>
-                        .
-                        Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-                        control the content visibility and styling.
-                    </p>
+                <Tabs.Item title="SCSS">
+                    <div className="video-container">
+                        {
+                            scssVideo.map(item => {
+                                return (
+                                    <div key={item.id} className="single-video">
+                                        <Card className='main-background main-border'>
+                                            <iframe width="100%" height="300" src={item.link} title={item.name} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            <h5 className="text-2xl font-bold tracking-tight text-white">
+                                                <p>
+                                                    {item.name}
+                                                </p>
+                                            </h5>
+                                            <p className="font-normal text-gray-700 dark:text-gray-400">
+                                                <Button target="_blank" gradientDuoTone="purpleToBlue"
+                                                    href={item.cLink}>Know More</Button>
+                                            </p>
+                                        </Card>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
                 </Tabs.Item>
+                <Tabs.Item title="BOOTSTRAP">
+                    <div className="video-container">
+                        {
+                            bootsVideo.map(item => {
+                                return (
+                                    <div key={item.id} className="single-video">
+                                        <Card className='main-background main-border'>
+                                            <iframe width="100%" height="300" src={item.link} title={item.name} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            <h5 className="text-2xl font-bold tracking-tight text-white">
+                                                <p>
+                                                    {item.name}
+                                                </p>
+                                            </h5>
+                                            <p className="font-normal text-gray-700 dark:text-gray-400">
+                                                <Button target="_blank" gradientDuoTone="purpleToBlue"
+                                                    href={item.cLink}>Know More</Button>
+                                            </p>
+                                        </Card>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </Tabs.Item>
+                <Tabs.Item title="TAILWIND">
+                    <div className="video-container">
+                        {
+                            tailwindVideo.map(item => {
+                                return (
+                                    <div key={item.id} className="single-video">
+                                        <Card className='main-background main-border'>
+                                            <iframe width="100%" height="300" src={item.link} title={item.name} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            <h5 className="text-2xl font-bold tracking-tight text-white">
+                                                <p>
+                                                    {item.name}
+                                                </p>
+                                            </h5>
+                                            <p className="font-normal text-gray-700 dark:text-gray-400">
+                                                <Button target="_blank" gradientDuoTone="purpleToBlue"
+                                                    href={item.cLink}>Know More</Button>
+                                            </p>
+                                        </Card>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </Tabs.Item>
+                <Tabs.Item title="JAVASCRIPT">
+                    <div className="video-container">
+                        {
+                            jsVideo.map(item => {
+                                return (
+                                    <div key={item.id} className="single-video">
+                                        <Card className='main-background main-border'>
+                                            <iframe width="100%" height="300" src={item.link} title={item.name} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            <h5 className="text-2xl font-bold tracking-tight text-white">
+                                                <p>
+                                                    {item.name}
+                                                </p>
+                                            </h5>
+                                            <p className="font-normal text-gray-700 dark:text-gray-400">
+                                                <Button target="_blank" gradientDuoTone="purpleToBlue"
+                                                    href={item.cLink}>Know More</Button>
+                                            </p>
+                                        </Card>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </Tabs.Item>
+                <Tabs.Item title="JQUERY">
+                    <div className="video-container">
+                        {
+                            jqueryVideo.map(item => {
+                                return (
+                                    <div key={item.id} className="single-video">
+                                        <Card className='main-background main-border'>
+                                            <iframe width="100%" height="300" src={item.link} title={item.name} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            <h5 className="text-2xl font-bold tracking-tight text-white">
+                                                <p>
+                                                    {item.name}
+                                                </p>
+                                            </h5>
+                                            <p className="font-normal text-gray-700 dark:text-gray-400">
+                                                <Button target="_blank" gradientDuoTone="purpleToBlue"
+                                                    href={item.cLink}>Know More</Button>
+                                            </p>
+                                        </Card>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </Tabs.Item>
+                <Tabs.Item title="GITHUB">
+                    <div className="video-container">
+                        {
+                            githubVideo.map(item => {
+                                return (
+                                    <div key={item.id} className="single-video">
+                                        <Card className='main-background main-border'>
+                                            <iframe width="100%" height="300" src={item.link} title={item.name} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            <h5 className="text-2xl font-bold tracking-tight text-white">
+                                                <p>
+                                                    {item.name}
+                                                </p>
+                                            </h5>
+                                            <p className="font-normal text-gray-700 dark:text-gray-400">
+                                                <Button target="_blank" gradientDuoTone="purpleToBlue"
+                                                    href={item.cLink}>Know More</Button>
+                                            </p>
+                                        </Card>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </Tabs.Item>
+
             </Tabs.Group>
         </div>
     );

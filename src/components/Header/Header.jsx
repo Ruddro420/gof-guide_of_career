@@ -32,8 +32,14 @@ const Header = () => {
                             </p>
                         </Link>
 
-                        <Navbar.Link href="#">
-                            About
+                        <Navbar.Link>
+                            <Link
+                                to='/about'
+                            >
+                                <p>
+                                    About
+                                </p>
+                            </Link>
                         </Navbar.Link>
                         <Navbar.Link href="#">
                             Services
