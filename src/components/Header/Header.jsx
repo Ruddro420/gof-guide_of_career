@@ -18,8 +18,8 @@ const Header = () => {
                         />
                     </Navbar.Brand>
                     <div className="flex md:order-2">
-                        <Button>
-                            Get started
+                        <Button >
+                            <a href="mailto:techitrick420@gmail.com">Mail Us</a>
                         </Button>
                         <Navbar.Toggle />
                     </div>
@@ -40,15 +40,6 @@ const Header = () => {
                                     About
                                 </p>
                             </Link>
-                        </Navbar.Link>
-                        <Navbar.Link href="#">
-                            Services
-                        </Navbar.Link>
-                        <Navbar.Link href="#">
-                            Pricing
-                        </Navbar.Link>
-                        <Navbar.Link href="#">
-                            Contact
                         </Navbar.Link>
                     </Navbar.Collapse>
                 </Navbar>

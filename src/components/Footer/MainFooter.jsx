@@ -1,4 +1,3 @@
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs'
 import { Footer } from 'flowbite-react';
 import './MainFooter.css'
 const MainFooter = () => {
@@ -8,36 +7,30 @@ const MainFooter = () => {
                 <div className="w-full grid max-w-screen-xl mx-auto">
                     <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4 place-content-stretch">
                         <div>
-                            <Footer.Title title="Company" />
+                            <Footer.Title title="Address" />
+                            <Footer.LinkGroup col>
+                                <Footer.Link href="#">
+                                    Rangpur,Bangladesh
+                                </Footer.Link>
+                                <Footer.Link href="#">
+                                    +88 01755232541
+                                </Footer.Link>
+                                <Footer.Link href="#">
+                                    techitrick420@gmail.com
+                                </Footer.Link>
+                            </Footer.LinkGroup>
+                        </div>
+                        <div>
+                            <Footer.Title title="company" />
                             <Footer.LinkGroup col>
                                 <Footer.Link href="#">
                                     About
                                 </Footer.Link>
                                 <Footer.Link href="#">
+                                    Contact
+                                </Footer.Link>
+                                <Footer.Link href="#">
                                     Careers
-                                </Footer.Link>
-                                <Footer.Link href="#">
-                                    Brand Center
-                                </Footer.Link>
-                                <Footer.Link href="#">
-                                    Blog
-                                </Footer.Link>
-                            </Footer.LinkGroup>
-                        </div>
-                        <div>
-                            <Footer.Title title="help center" />
-                            <Footer.LinkGroup col>
-                                <Footer.Link href="#">
-                                    Discord Server
-                                </Footer.Link>
-                                <Footer.Link href="#">
-                                    Twitter
-                                </Footer.Link>
-                                <Footer.Link href="#">
-                                    Facebook
-                                </Footer.Link>
-                                <Footer.Link href="#">
-                                    Contact Us
                                 </Footer.Link>
                             </Footer.LinkGroup>
                         </div>
@@ -56,19 +49,16 @@ const MainFooter = () => {
                             </Footer.LinkGroup>
                         </div>
                         <div>
-                            <Footer.Title title="download" />
+                            <Footer.Title title="contact" />
                             <Footer.LinkGroup col>
                                 <Footer.Link href="#">
-                                    iOS
+                                    Facebbok
                                 </Footer.Link>
                                 <Footer.Link href="#">
-                                    Android
+                                    Youtube
                                 </Footer.Link>
                                 <Footer.Link href="#">
-                                    Windows
-                                </Footer.Link>
-                                <Footer.Link href="#">
-                                    MacOS
+                                    Email
                                 </Footer.Link>
                             </Footer.LinkGroup>
                         </div>
@@ -77,30 +67,8 @@ const MainFooter = () => {
                         <Footer.Copyright
                             by="GOF™"
                             href="#"
-                            year={2022}
+                            year={2023}
                         />
-                        <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-                            <Footer.Icon
-                                href="#"
-                                icon={BsFacebook}
-                            />
-                            <Footer.Icon
-                                href="#"
-                                icon={BsInstagram}
-                            />
-                            <Footer.Icon
-                                href="#"
-                                icon={BsTwitter}
-                            />
-                            <Footer.Icon
-                                href="#"
-                                icon={BsGithub}
-                            />
-                            <Footer.Icon
-                                href="#"
-                                icon={BsDribbble}
-                            />
-                        </div>
                     </div>
                 </div>
             </Footer>
