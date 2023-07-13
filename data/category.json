@@ -52,23 +52,6 @@
     },
     {
         "id": 4,
-        "name": "AI & Machine Learning",
-        "description": "Empowering intelligence through AI and machine learning.",
-        "icon": "../public/cat-img/ai.png",
-        "subCategory_1": [
-            {
-                "name": "Problem Solving"
-            },
-            {
-                "name": "AI (Artificial intelligence)"
-            },
-            {
-                "name": "ML (Machine Learning)"
-            }
-        ]
-    },
-    {
-        "id": 5,
         "name": "Common Sector",
         "description": "Build up your skills and gather informative knowledge with modern technology",
         "icon": "../public/cat-img/common.png",
@@ -82,7 +65,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "Job Preparation",
         "icon": "../public/cat-img/job.png",
         "description": "Prepare yourself for success in the competitive job market",

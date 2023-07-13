@@ -1,8 +1,9 @@
+import Apptitle from "../../components/AppTitle/Apptitle";
 
 const AppDev = () => {
     return (
         <div>
-            App Development
+            <Apptitle />
         </div>
     );
 };

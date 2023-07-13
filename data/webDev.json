@@ -205,5 +205,115 @@
                 ]
             }
         ]
+    },
+    {
+        "id": 2,
+        "name": "Back End",
+        "language":[
+            {
+                "id": 1,
+                "name": "NodeJS",
+                "description": "Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more.",
+                "video": [
+                    {
+                        "id":1,
+                        "name": "Learn with Sumit - LWS - Bangladesh",
+                        "link":"https://www.youtube.com/embed/WC-g0JtEIwM",
+                        "cLink":"https://www.youtube.com/@LearnwithSumit"
+                    },
+                    {
+                        "id":2,
+                        "name": "Rabbil Hasan",
+                        "link":"https://www.youtube.com/embed/nlq9niwtDS0",
+                        "cLink":"https://www.youtube.com/@RabbilHasanRupom"
+                    },
+                    {
+                        "id":3,
+                        "name": "Stack Learner",
+                        "link":"https://www.youtube.com/embed/PNDZQ7NojEg",
+                        "cLink":"https://www.youtube.com/@StackLearner"
+                    }
+        
+                ]
+            },
+            {
+                "id": 2,
+                "name": "PHP",
+                "description": "PHP is a general-purpose scripting language geared towards web development.",
+                "video": [
+                    {
+                        "id":1,
+                        "name": "Technology Village",
+                        "link":"https://www.youtube.com/embed/hZCpoNM_NPk",
+                        "cLink":"https://www.youtube.com/@TechnologyVillagebd"
+                    },
+                    {
+                        "id":2,
+                        "name": "Training with Live Project",
+                        "link":"https://www.youtube.com/embed/v4SVKLTVNS8",
+                        "cLink":"https://www.youtube.com/@Trainingtcl"
+                    },
+                    {
+                        "id":3,
+                        "name": "Web Ship",
+                        "link":"https://www.youtube.com/embed/ZJ7xK47gg1o",
+                        "cLink":"https://www.youtube.com/@WebShip"
+                    }
+        
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Python Django",
+                "description": "Django is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern.",
+                "video": [
+                    {
+                        "id":1,
+                        "name": "STUDY MART",
+                        "link":"https://www.youtube.com/embed/ZJKRzUVrye4",
+                        "cLink":"https://www.youtube.com/@StudyMart"
+                    },
+                    {
+                        "id":2,
+                        "name": "Tech Solutions In Bangla",
+                        "link":"https://www.youtube.com/embed/EcxpGTI-oaM",
+                        "cLink":"https://www.youtube.com/@TechSolutionsInBangla"
+                    },
+                    {
+                        "id":3,
+                        "name": "Abu Noman Basar",
+                        "link":"https://www.youtube.com/embed/i8QylCWxYoE",
+                        "cLink":"https://www.youtube.com/@ANBasar"
+                    }
+        
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Laravel",
+                "description": "Laravel is a free and open-source PHP web framework.",
+                "video": [
+                    {
+                        "id":1,
+                        "name": "Learn Hunter",
+                        "link":"https://www.youtube.com/embed/oPbRN-syDfA",
+                        "cLink":"https://www.youtube.com/@LearnHunter"
+                    },
+                    {
+                        "id":2,
+                        "name": "Moneruzzaman",
+                        "link":"https://www.youtube.com/embed/kWNz3BCZBvU",
+                        "cLink":"https://www.youtube.com/@Moneruzzaman"
+                    },
+                    {
+                        "id":3,
+                        "name": "Rabbil Hasan",
+                        "link":"https://www.youtube.com/embed/mEdwMheMaSM",
+                        "cLink":"https://www.youtube.com/@RabbilHasanRupom"
+                    }
+        
+                ]
+            }
+        ]
     }
 ]

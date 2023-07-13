@@ -49,6 +49,11 @@ a {
   color: white !important;
 }
 
+select option {
+  color: black !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4) !important;
+}
+
 /* Common Part END */
 /* About Part */
 .about-img img {

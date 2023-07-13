@@ -7,5 +7,8 @@ import common from './cat-img/common.png'
 import job from './cat-img/job.png'
 import frontEndRoadMap from './front-end.png'
 import aboutImg from './about.png'
+import backEndRoadMap from './back-end.png'
+import andriodRoadMap from './andriod-road-map.png'
+import ioSRoadMap from './iOs-road-map.png'
 
-export { logo, webDesign, design, marketing, ai, common, job, frontEndRoadMap, aboutImg }
+export { logo, webDesign, design, marketing, ai, common, job, frontEndRoadMap, aboutImg, backEndRoadMap, andriodRoadMap, ioSRoadMap }

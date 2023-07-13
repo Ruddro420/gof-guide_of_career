@@ -1,4 +1,4 @@
-import { Button, Card, Label, Select } from 'flowbite-react';
+import { Button, Card, Select } from 'flowbite-react';
 import category from '../../../../data/category.json'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -48,11 +48,8 @@ const Filter = () => {
             <form onSubmit={submitHandler}>
                 <Card className='category-card'>
                     <div className="max-w-md" id="select">
-                        <div className="mb-2 block">
-                            <Label className='text-white' htmlFor="countries" value="Select you category" />
-                        </div>
                         <Select onChange={categoryHandler} id="countries" value={main} required >
-                            <option>Select Category</option>
+                            <option>Select Career Category</option>
                             {
                                 category.map(item => {
                                     return (

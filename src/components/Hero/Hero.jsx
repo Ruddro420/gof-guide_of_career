@@ -16,7 +16,7 @@ const Hero = () => {
                             কিভাবে শিখবো ?
                         </a>
                     </div>
-                    <div className="hidden lg:mt-0 lg:col-span-4 lg:block category-card">
+                    <div className="hidden lg:mt-0 lg:col-span-4 lg:block">
                         <Filter />
                     </div>
                 </div>
