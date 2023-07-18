@@ -49,7 +49,7 @@ const Filter = () => {
                 <Card className='category-card'>
                     <div className="max-w-md" id="select">
                         <Select onChange={categoryHandler} id="countries" value={main} required >
-                            <option>Select Career Category</option>
+                            <option>Select Careers Category</option>
                             {
                                 category.map(item => {
                                     return (

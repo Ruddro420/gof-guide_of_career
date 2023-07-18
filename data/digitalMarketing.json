@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "name": "Lead Generation",
+        "description": "In marketing, lead generation is the initiation of consumer interest or enquiry into the products or services of a business.",
+        "video": [
+            {
+                "id": 1,
+                "name": "Sajib Limited",
+                "link": "https://www.youtube.com/embed/videoseries?list=PL732Zfj7JRIo7ni8-xFNjzMgw_LTAT18V",
+                "cLink": "https://www.youtube.com/@SajibLimited"
+            },
+            {
+                "id": 2,
+                "name": "Farabi's Smart Diary",
+                "link": "https://www.youtube.com/embed/videoseries?list=PLoAZHhY732TIPyuWun0gzO4BYOYHSrNs7",
+                "cLink": "https://www.youtube.com/@FarabisSmartDiary"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Social Media Marketing",
+        "description": "Social media marketing is the use of social media platforms and websites to promote a product or service.",
+        "video": [
+            {
+                "id": 1,
+                "name": "Atique Ullah",
+                "link": "https://www.youtube.com/embed/videoseries?list=PLsv4iUgyA4irDg1YVwGVPSJAdXnfbV3be",
+                "cLink": "https://www.youtube.com/@AtiqueUllah"
+            },
+            {
+                "id": 2,
+                "name": "Digital Marketing Live Course",
+                "link": "https://www.youtube.com/embed/videoseries?list=PLdohJ-1LbCYPWHLDzOCWieIW6GAllqYX5",
+                "cLink": "https://www.youtube.com/@DigitalMarketingLiveCourse"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Affiliate Marketing",
+        "description": "In business, an affiliate is an entity that owns less than a majority stake in another's stock. Affiliations can also describe a type of relationship in which at least two different companies are subsidiaries of a larger parent company.",
+        "video": [
+            {
+                "id": 1,
+                "name": "Redoan Kawsar",
+                "link": "https://www.youtube.com/embed/videoseries?list=PLxJSYTvgCqt4UtC37-EiVGcwPg33McQ3A",
+                "cLink": "https://www.youtube.com/@RedoanKawsar"
+            },
+            {
+                "id": 2,
+                "name": "Farabi's Smart Diary",
+                "link": "https://www.youtube.com/embed/videoseries?list=PLoAZHhY732TIXSE_ULX43yxkLm2ePxUfd",
+                "cLink": "https://www.youtube.com/@FarabisSmartDiary"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Drop Shipping",
+        "description": "Drop shipping is a form of retail business in which the seller accepts customer orders without keeping stock on hand.",
+        "video": [
+            {
+                "id": 1,
+                "name": "CodemanBD",
+                "link": "https://www.youtube.com/embed/videoseries?list=PLMqgQUPEEDtt3My148jgf7neZKJSOkZuh",
+                "cLink": "https://www.youtube.com/@CodemanBD"
+            },
+            {
+                "id": 2,
+                "name": "Marketing Fundas ",
+                "link": "https://www.youtube.com/embed/qK2vtzSlfv4",
+                "cLink": "https://www.youtube.com/@MarketingFundas"
+            }
+        ]
+    }
+]

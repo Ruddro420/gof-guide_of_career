@@ -6,6 +6,10 @@ import AppDev from "../Pages/AppDev/AppDev";
 import UiUx from "../Pages/UiUx/UiUx";
 import About from "../Pages/About/About";
 import Graphics from "../Pages/Graphics/Graphics";
+import LeadGeneration from "../Pages/Marketing/LeadGeneration";
+import SocialMarketing from "../Pages/Marketing/SocialMarketing";
+import AffiliateMarketing from "../Pages/Marketing/AffiliateMarketing";
+import DropShipping from "../Pages/Marketing/DropShipping";
 
 export const router = createBrowserRouter([
     {
@@ -35,7 +39,23 @@ export const router = createBrowserRouter([
             {
                 path: "/graphics-design",
                 element: <Graphics />,
-            }
+            },
+            {
+                path: "/lead-generation",
+                element: <LeadGeneration />,
+            },
+            {
+                path: "/social-media-marketing",
+                element: <SocialMarketing />,
+            },
+            {
+                path: "/affiliate-marketing",
+                element: <AffiliateMarketing />,
+            },
+            {
+                path: "/drop-shipping",
+                element: <DropShipping />,
+            },
         ]
     },
 ]);

@@ -8,39 +8,39 @@ const Category = () => {
             "id": 1,
             "name": "Web Development",
             "description": "Learn Web Development and App Development, Build a tech-career now",
-            "icon": "../public/cat-img/dev.png",
+            "icon": "../../../cat-img/dev.png",
             "link": '/web-development'
         },
         {
             "id": 2,
             "name": "App Development",
             "description": "Learn Web Development and App Development, Build a tech-career now",
-            "icon": "../public/cat-img/dev.png",
+            "icon": "../../../cat-img/ai.png",
             "link": "/app-development"
         },
         {
             "id": 3,
             "name": "Design",
             "description": "Design products, increase demand internationally",
-            "icon": "../public/cat-img/design.png",
+            "icon": "../../../cat-img/design.png",
         },
         {
             "id": 4,
             "name": "Digital Marketing",
             "description": "Become a successful corporate person by taking business and marketing-related courses.",
-            "icon": "../public/cat-img/marketing.png",
+            "icon": "../../../cat-img/marketing.png",
         },
         {
             "id": 5,
             "name": "Job Preparation",
-            "icon": "../public/cat-img/job.png",
+            "icon": "../../../cat-img/job.png",
             "description": "Prepare yourself for success in the competitive job market",
         },
         {
             "id": 6,
             "name": "CV Writing",
             "description": "Build up your skills and gather informative knowledge with modern technology",
-            "icon": "../public/cat-img/common.png",
+            "icon": "../../../cat-img/common.png",
         }
     ]
     const [category, setCategory] = useState([])
