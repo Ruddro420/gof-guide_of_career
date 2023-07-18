@@ -52,32 +52,12 @@
     },
     {
         "id": 4,
-        "name": "Common Sector",
+        "name": "Education",
         "description": "Build up your skills and gather informative knowledge with modern technology",
         "icon": "../public/cat-img/common.png",
         "subCategory_1": [
             {
-                "name": "AI Tools"
-            },
-            {
-                "name": "CV Writing"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Job Preparation",
-        "icon": "../public/cat-img/job.png",
-        "description": "Prepare yourself for success in the competitive job market",
-        "subCategory_1": [
-            {
-                "name": "Intern Job"
-            },
-            {
-                "name": "Remote Job"
-            },
-            {
-                "name": "Desk Job"
+                "name": "SSC and HSC"
             }
         ]
     }

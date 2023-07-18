@@ -10,6 +10,7 @@ import LeadGeneration from "../Pages/Marketing/LeadGeneration";
 import SocialMarketing from "../Pages/Marketing/SocialMarketing";
 import AffiliateMarketing from "../Pages/Marketing/AffiliateMarketing";
 import DropShipping from "../Pages/Marketing/DropShipping";
+import Education from "../Pages/Education/Education";
 
 export const router = createBrowserRouter([
     {
@@ -55,6 +56,10 @@ export const router = createBrowserRouter([
             {
                 path: "/drop-shipping",
                 element: <DropShipping />,
+            },
+            {
+                path: "/ssc-and-hsc",
+                element: <Education />,
             },
         ]
     },

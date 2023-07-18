@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './Category.css'
 import { Link } from 'react-router-dom';
+import { Button } from 'flowbite-react';
 const Category = () => {
 
     const data = [
@@ -20,34 +21,65 @@ const Category = () => {
         },
         {
             "id": 3,
-            "name": "Design",
+            "name": "UI/UX Design",
             "description": "Design products, increase demand internationally",
             "icon": "../../../cat-img/design.png",
+            "link": "/ui-ux"
         },
         {
             "id": 4,
-            "name": "Digital Marketing",
+            "name": "Graphics-design",
             "description": "Become a successful corporate person by taking business and marketing-related courses.",
-            "icon": "../../../cat-img/marketing.png",
+            "icon": "../../../cat-img/design.png",
+            "link": "/graphics-design"
         },
         {
             "id": 5,
-            "name": "Job Preparation",
-            "icon": "../../../cat-img/job.png",
-            "description": "Prepare yourself for success in the competitive job market",
+            "name": "Lead Generation",
+            "description": "Become a successful corporate person by taking business and marketing-related courses.",
+            "icon": "../../../cat-img/marketing.png",
+            "link": "/lead-generation"
         },
         {
             "id": 6,
-            "name": "CV Writing",
-            "description": "Build up your skills and gather informative knowledge with modern technology",
-            "icon": "../../../cat-img/common.png",
+            "name": "Social Media Marketing",
+            "description": "Become a successful corporate person by taking business and marketing-related courses.",
+            "icon": "../../../cat-img/marketing.png",
+            "link": "/social-media-marketing"
+        },
+        {
+            "id": 7,
+            "name": "Affiliate Marketing",
+            "description": "Become a successful corporate person by taking business and marketing-related courses.",
+            "icon": "../../../cat-img/marketing.png",
+            "link": "/affiliate-marketing"
+        },
+        {
+            "id": 8,
+            "name": "Drop Shipping",
+            "description": "Become a successful corporate person by taking business and marketing-related courses.",
+            "icon": "../../../cat-img/marketing.png",
+            "link": "/drop-shipping"
+        },
+        {
+            "id": 9,
+            "name": "SSC / HSC Preparation",
+            "icon": "../../../cat-img/job.png",
+            "description": "Prepare yourself for success in the competitive job market",
+            "link": "/ssc-and-hsc"
         }
     ]
     const [category, setCategory] = useState([])
+    const [loadMore, setLoadMore] = useState(6)
+
     useEffect(() => {
-        setCategory(data)
-    }, [category])
-    console.log(category);
+        setCategory(data.slice(0, loadMore))
+    }, [loadMore])
+    // for load more feature
+    const loadMoreHandler = () => {
+        setLoadMore(loadMore + 3)
+    }
+    console.log(data.length, loadMore);
     return (
         <div>
             <section className="">
@@ -72,8 +104,14 @@ const Category = () => {
                                 )
                             })
                         }
-
                     </div>
+                    {
+                        data.length <= loadMore ? ''
+                            :
+                            <center className='mt-10'>
+                                <Button onClick={loadMoreHandler} gradientMonochrome="info">Load More</Button>
+                            </center>
+                    }
                 </div>
             </section>
         </div>

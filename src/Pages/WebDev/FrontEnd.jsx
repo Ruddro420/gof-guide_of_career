@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Button, Card, Tabs } from 'flowbite-react';
-import htmlData from '../../../data/design.json'
+import htmlData from '../../../data/webDev.json'
 import { useEffect, useMemo, useState } from 'react';
 
 const FrontEnd = () => {

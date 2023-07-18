@@ -5,11 +5,11 @@ const Team = () => {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        /* autoplay: true,
         speed: 2000,
         autoplaySpeed: 2000,
         cssEase: "linear",
-        pauseOnHover: true,
+        pauseOnHover: true, */
         responsive: [
             {
                 breakpoint: 1024,

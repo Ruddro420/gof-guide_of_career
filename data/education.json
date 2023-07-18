@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "SSC & HSC",
+        "video": [
+            {
+                "id": 1,
+                "name": "10 Minute School Class 1-12",
+                "link": "https://www.youtube.com/embed/ElvonjupeiY",
+                "cLink": "https://www.youtube.com/@10msclass1-12"
+            },
+            {
+                "id": 2,
+                "name": "Amader School",
+                "link": "https://www.youtube.com/embed/wK2i4VkOegU",
+                "cLink": "https://www.youtube.com/@FahadHossainEdutubebd"
+            }
+        ]
+    }
+]
