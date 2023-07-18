@@ -5,6 +5,7 @@ import WebDev from "../Pages/WebDev/WebDev";
 import AppDev from "../Pages/AppDev/AppDev";
 import UiUx from "../Pages/UiUx/UiUx";
 import About from "../Pages/About/About";
+import Graphics from "../Pages/Graphics/Graphics";
 
 export const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
             {
                 path: "/ui-ux",
                 element: <UiUx />,
+            },
+            {
+                path: "/graphics-design",
+                element: <Graphics />,
             }
         ]
     },

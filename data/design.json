@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "name": "UI/UX Design",
+        "description": "User interface design or user interface engineering is the design of user interfaces for machines and software, such as computers, home appliances, mobile devices, and other electronic devices, with the focus on maximizing usability and the user experience.",
+        "video": [
+            {
+                "id": 1,
+                "name": "Shakil Blogs & Tips",
+                "link": "https://www.youtube.com/embed/videoseries?list=PLtNsS5jjxfgRDK1FCK_Ky0rpTkcZaG9dz",
+                "cLink": "https://www.youtube.com/@shakilblogstips6865"
+            },
+            {
+                "id": 2,
+                "name": "Tutorials Town",
+                "link": "https://www.youtube.com/embed/videoseries?list=PLspW40rZgNemcESvd7g9mz8gldTKTLy-d",
+                "cLink": "https://www.youtube.com/@TutorialsTown"
+            },
+            {
+                "id": 3,
+                "name": "Graphics Guruji",
+                "link": "https://www.youtube.com/embed/videoseries?list=PLt7HkDVHvsa6d3wxz0t1Koc-BSsXnySwo",
+                "cLink": "https://www.youtube.com/@GraphicsGuruji"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Graphic Design",
+        "language":[
+            {
+                "id": 1,
+                "name": "Adobe Photoshop",
+                "description": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS.",
+                "video": [
+                    {
+                        "id":1,
+                        "name": "Learn With Shohagh",
+                        "link":"https://www.youtube.com/embed/videoseries?list=PLT1vcWz6l4EQmYhhDXS4xq-dTuEkmMkQq",
+                        "cLink":"https://www.youtube.com/@LearnWithShohagh1"
+                    },
+                    {
+                        "id":2,
+                        "name": "N Creative IT",
+                        "link":"https://www.youtube.com/embed/videoseries?list=PLu8cVIrIt9XgnfcT_cLc1ofDk2rnB5n3h",
+                        "cLink":"https://www.youtube.com/@ncreativeit123"
+                    },
+                    {
+                        "id":3,
+                        "name": "GFXMentor",
+                        "link":"https://www.youtube.com/embed/videoseries?list=PLW-zSkCnZ-gA5Jn6gZtUa6-aG0OoRZyb6",
+                        "cLink":"https://www.youtube.com/@GFXMentor"
+                    }
+        
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Adobe Illustrator",
+                "description": "Adobe Illustrator is a vector graphics editor and design program developed and marketed by Adobe Inc.",
+                "video": [
+                    {
+                        "id":1,
+                        "name": "Graphic School",
+                        "link":"https://www.youtube.com/embed/videoseries?list=PLfTy62yEipgiPeGWl08iiGdIJMGE0n4uH",
+                        "cLink":"https://www.youtube.com/@GraphicSchool"
+                    },
+                    {
+                        "id":2,
+                        "name": "James Prince",
+                        "link":"https://www.youtube.com/embed/videoseries?list=PLBbIq4hhNL1qqwOznq7caLtPyGPg3UyJy",
+                        "cLink":"https://www.youtube.com/@JamesPrinceB"
+                    },
+                    {
+                        "id":3,
+                        "name": "N Creative IT",
+                        "link":"https://www.youtube.com/embed/videoseries?list=PLu8cVIrIt9XhvIwmpxTdrWxDW6Hf23eH0",
+                        "cLink":"https://www.youtube.com/@ncreativeit123"
+                    }
+        
+                ]
+            }
+        ]
+    }
+]

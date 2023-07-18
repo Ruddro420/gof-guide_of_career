@@ -1,14 +1,26 @@
 import { Button, Card, Tabs } from "flowbite-react";
 import { andriodRoadMap } from "../../../public";
+import { useEffect, useMemo, useState } from "react";
 import designData from '../../../data/design.json'
-import { useMemo, useState } from "react";
 
-const UiUx = () => {
+const Graphics = () => {
     const [getData, setGetData] = useState([])
+    const [photoshop, setPhotoshop] = useState([])
+    const [illustrator, setIllustrator] = useState([])
     useMemo(() => {
-        const findData = designData.filter(data => data.name === 'UI/UX Design')
-        findData.map(item => setGetData(item.video))
+        const findData = designData.filter(data => data.name === 'Graphic Design')
+        findData.map(item => setGetData(item.language))
     }, [])
+    useEffect(() => {
+        //for HTML
+        const findPhotoshop = getData.filter(cc => cc.name === 'Adobe Photoshop')
+        findPhotoshop.map(item => setPhotoshop(item.video))
+        //for Css
+        const findIllustrator = getData.filter(cc => cc.name === 'Adobe Illustrator')
+        findIllustrator.map(item => setIllustrator(item.video))
+
+    }, [])
+
     return (
         <div>
             <section className="">
@@ -27,11 +39,34 @@ const UiUx = () => {
                                     খুব সহজ ভাষায় ফ্রন্ট এন্ড ডেভেলপমেন্ট হলো ইউজার এর জন্য দৃশ্যমান অংশ, যা ইউজার কতৃক ব্যবহৃত হয়। আর ব্যাক এন্ড ডেভেলপমেন্ট হলো ভিতরের কাজ যা সাধারন ওয়েবসাইট ব্যাবহারকারির অবগতিতে থাকে না।
                                 </p>
                             </Tabs.Item>
-                            {/* For HTML */}
-                            <Tabs.Item title="UI / UX" >
+                            <Tabs.Item title="Adobe Photoshop" >
                                 <div className="video-container">
                                     {
-                                        getData.map(item => {
+                                        photoshop.map(item => {
+                                            return (
+                                                <div key={item.id} className="single-video">
+                                                    <Card className='main-background main-border'>
+                                                        <iframe width="100%" height="300" src={item.link} title={item.name} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                                        <h5 className="text-2xl font-bold tracking-tight text-white">
+                                                            <p>
+                                                                {item.name}
+                                                            </p>
+                                                        </h5>
+                                                        <p className="font-normal text-gray-700 dark:text-gray-400">
+                                                            <Button target="_blank" gradientDuoTone="purpleToBlue"
+                                                                href={item.cLink}>Know More</Button>
+                                                        </p>
+                                                    </Card>
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </div>
+                            </Tabs.Item>
+                            <Tabs.Item title="Adobe Illustrator" >
+                                <div className="video-container">
+                                    {
+                                        illustrator.map(item => {
                                             return (
                                                 <div key={item.id} className="single-video">
                                                     <Card className='main-background main-border'>
@@ -61,4 +96,4 @@ const UiUx = () => {
     );
 };
 
-export default UiUx;
+export default Graphics;
