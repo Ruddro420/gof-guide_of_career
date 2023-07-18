@@ -1,5 +1,5 @@
 import { Button, Card, Tabs } from "flowbite-react";
-import { andriodRoadMap } from "../../../public";
+import { uiUx } from "../../../public";
 import designData from '../../../data/design.json'
 import { useMemo, useState } from "react";
 
@@ -16,7 +16,7 @@ const UiUx = () => {
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">WELCOME TO <br /> UI / UX DEVELOPMENT WORLD !!</h1>
                     <div className="main-content-container mt-20">
                         <div className="top-content">
-                            <img src={andriodRoadMap} alt="" />
+                            <img src={uiUx} alt="" />
                         </div>
                     </div>
                     <div className='text-center mt-10'>
@@ -24,7 +24,7 @@ const UiUx = () => {
                             <Tabs.Item active title="Know Here"
                             >
                                 <p className='text-left'>
-                                    খুব সহজ ভাষায় ফ্রন্ট এন্ড ডেভেলপমেন্ট হলো ইউজার এর জন্য দৃশ্যমান অংশ, যা ইউজার কতৃক ব্যবহৃত হয়। আর ব্যাক এন্ড ডেভেলপমেন্ট হলো ভিতরের কাজ যা সাধারন ওয়েবসাইট ব্যাবহারকারির অবগতিতে থাকে না।
+                                    UI/UX এর মূল উদ্দেশ্য হলো ব্যবহারকারীদের সাথে সুবিধাজনক, আকর্ষণীয় এবং স্বচ্ছ অভিজ্ঞতা তৈরি করা। UI (User Interface) সম্পর্কিত, ব্যবহারকারীর সাথে সরাসরি সম্পর্ক করা হয় এবং তার মধ্যে ব্যবহারকারীর প্রথম যোগাযোগ বিন্যাস, অভিজ্ঞতা এবং সাধনাসমূহ রয়েছে। UX (User Experience) এর মাধ্যমে প্রধানভাবে ব্যবহারকারীর সাথে সম্পর্ক স্থাপন করা হয়
                                 </p>
                             </Tabs.Item>
                             {/* For HTML */}

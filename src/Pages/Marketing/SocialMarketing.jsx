@@ -1,5 +1,5 @@
 import { Button, Card, Tabs } from "flowbite-react";
-import { andriodRoadMap } from "../../../public";
+import { social } from "../../../public";
 import marketingData from '../../../data/digitalMarketing.json'
 import { useMemo, useState } from "react";
 const SocialMarketing = () => {
@@ -15,7 +15,7 @@ const SocialMarketing = () => {
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">WELCOME TO <br /> SOCIAL MEDIA MARKETING WORLD !!</h1>
                     <div className="main-content-container mt-20">
                         <div className="top-content">
-                            <img src={andriodRoadMap} alt="" />
+                            <img src={social} alt="" />
                         </div>
                     </div>
                     <div className='text-center mt-10'>
@@ -23,7 +23,7 @@ const SocialMarketing = () => {
                             <Tabs.Item active title="Know Here"
                             >
                                 <p className='text-left'>
-                                    খুব সহজ ভাষায় ফ্রন্ট এন্ড ডেভেলপমেন্ট হলো ইউজার এর জন্য দৃশ্যমান অংশ, যা ইউজার কতৃক ব্যবহৃত হয়। আর ব্যাক এন্ড ডেভেলপমেন্ট হলো ভিতরের কাজ যা সাধারন ওয়েবসাইট ব্যাবহারকারির অবগতিতে থাকে না।
+                                    সোশ্যাল মিডিয়া মার্কেটিং হলো এমন মাধ্যম যার মাধ্যমে ব্যক্তিগত বা পেশাজীবনের বিভিন্ন সুযোগ আছে প্রমোশন এবং ব্র্যান্ড স্থাপনে। এটি সামাজিক প্রদর্শনী, একাউন্ট ম্যানেজমেন্ট, ট্রেন্ড অ্যানালাইসিস, এবং লক্ষ্যমূলক বিজ্ঞাপনের মাধ্যমে সংশ্লিষ্ট পাবলিকের সাথে সম্পর্ক স্থাপনের মাধ্যমে ব্যবসা করে।
                                 </p>
                             </Tabs.Item>
                             {/* For HTML */}

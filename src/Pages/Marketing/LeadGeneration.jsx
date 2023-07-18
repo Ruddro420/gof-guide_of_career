@@ -1,5 +1,5 @@
 import { Button, Card, Tabs } from "flowbite-react";
-import { andriodRoadMap } from "../../../public";
+import { leadGeneration } from "../../../public";
 import marketingData from '../../../data/digitalMarketing.json'
 import { useMemo, useState } from "react";
 
@@ -16,7 +16,7 @@ const LeadGeneration = () => {
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">WELCOME TO <br /> LEAD GENERATION WORLD !!</h1>
                     <div className="main-content-container mt-20">
                         <div className="top-content">
-                            <img src={andriodRoadMap} alt="" />
+                            <img src={leadGeneration} alt="" />
                         </div>
                     </div>
                     <div className='text-center mt-10'>
@@ -24,7 +24,7 @@ const LeadGeneration = () => {
                             <Tabs.Item active title="Know Here"
                             >
                                 <p className='text-left'>
-                                    খুব সহজ ভাষায় ফ্রন্ট এন্ড ডেভেলপমেন্ট হলো ইউজার এর জন্য দৃশ্যমান অংশ, যা ইউজার কতৃক ব্যবহৃত হয়। আর ব্যাক এন্ড ডেভেলপমেন্ট হলো ভিতরের কাজ যা সাধারন ওয়েবসাইট ব্যাবহারকারির অবগতিতে থাকে না।
+                                    লিড জেনারেশন হলো একটি ব্যবসায়িক প্রক্রিয়া যা প্রস্তুত এবং সঠিক কাস্টমারদের তালিকা তৈরি করে যা কোম্পানির পণ্য বা পরিষেবার দিকে আগ্রহী হতে পারে। এটি একটি গুরুত্বপূর্ণ মার্কেটিং প্রক্রিয়া, যা নতুন ক্লায়েন্টদের উদ্দীপনা দেয় এবং ব্যবসায়ের বিকাশে ভূমিকা পালন করে।
                                 </p>
                             </Tabs.Item>
                             {/* For HTML */}

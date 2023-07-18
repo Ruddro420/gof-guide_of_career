@@ -1,5 +1,5 @@
 import { Button, Card, Tabs } from "flowbite-react";
-import { andriodRoadMap } from "../../../public";
+import { graphics } from "../../../public";
 import { useEffect, useMemo, useState } from "react";
 import designData from '../../../data/design.json'
 
@@ -28,7 +28,7 @@ const Graphics = () => {
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">WELCOME TO <br /> UI / UX DEVELOPMENT WORLD !!</h1>
                     <div className="main-content-container mt-20">
                         <div className="top-content">
-                            <img src={andriodRoadMap} alt="" />
+                            <img src={graphics} alt="" />
                         </div>
                     </div>
                     <div className='text-center mt-10'>
@@ -36,7 +36,7 @@ const Graphics = () => {
                             <Tabs.Item active title="Know Here"
                             >
                                 <p className='text-left'>
-                                    খুব সহজ ভাষায় ফ্রন্ট এন্ড ডেভেলপমেন্ট হলো ইউজার এর জন্য দৃশ্যমান অংশ, যা ইউজার কতৃক ব্যবহৃত হয়। আর ব্যাক এন্ড ডেভেলপমেন্ট হলো ভিতরের কাজ যা সাধারন ওয়েবসাইট ব্যাবহারকারির অবগতিতে থাকে না।
+                                    গ্রাফিক্স ডিজাইন এটি একটি সৌন্দর্য ও সৃজনশীল শিল্প যা ছবি, প্রতিচ্ছবি, লোগো, পোস্টার এবং আরও অনেক ধরনের মিডিয়া তৈরি করে। এটি প্রিন্ট অথবা ইলেক্ট্রনিক মাধ্যমে ব্যবহৃত হতে পারে এবং বিভিন্ন উপায়ে সাজানো যায় যাতে দর্শকদের আকর্ষিত করা যায়। এটি বিভিন্ন ক্ষেত্রে ব্যবহার করা হয়, যেমন বিজ্ঞাপন, মার্কেটিং, ওয়েব ডেভেলপমেন্ট, আইকন ডিজাইন, প্রিন্ট মিডিয়া, গেম ডেভেলপমেন্ট ইত্যাদি।
                                 </p>
                             </Tabs.Item>
                             <Tabs.Item title="Adobe Photoshop" >

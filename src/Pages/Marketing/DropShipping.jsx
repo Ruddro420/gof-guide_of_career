@@ -1,5 +1,5 @@
 import { Button, Card, Tabs } from "flowbite-react";
-import { andriodRoadMap } from "../../../public";
+import { dropShipping } from "../../../public";
 import marketingData from '../../../data/digitalMarketing.json'
 import { useMemo, useState } from "react";
 
@@ -16,7 +16,7 @@ const DropShipping = () => {
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white uppercase">WELCOME TO <br /> Drop Shipping WORLD !!</h1>
                     <div className="main-content-container mt-20">
                         <div className="top-content">
-                            <img src={andriodRoadMap} alt="" />
+                            <img src={dropShipping} alt="" />
                         </div>
                     </div>
                     <div className='text-center mt-10'>
@@ -24,7 +24,7 @@ const DropShipping = () => {
                             <Tabs.Item active title="Know Here"
                             >
                                 <p className='text-left'>
-                                    খুব সহজ ভাষায় ফ্রন্ট এন্ড ডেভেলপমেন্ট হলো ইউজার এর জন্য দৃশ্যমান অংশ, যা ইউজার কতৃক ব্যবহৃত হয়। আর ব্যাক এন্ড ডেভেলপমেন্ট হলো ভিতরের কাজ যা সাধারন ওয়েবসাইট ব্যাবহারকারির অবগতিতে থাকে না।
+                                    ড্রপ শিপিং হলো একটি ব্যবসা মডেল যেখানে একটি ব্যক্তি বা প্রতিষ্ঠান উৎপাদন বা স্টক করা প্রোডাক্ট ধারণ করে না, তারপর আপনার গ্রাহকদের অর্ডারের উপর ভিত্তি করে প্রয়োজনীয় পণ্যটি নির্মিতকারক বা সরবরাহকারী কর্তৃক প্রেরণ করে। ড্রপ শিপিং মডেল ব্যবসায়িকভাবে আকর্ষণীয় কারণে যেমন ব্যয় মিনিমাম, স্কেল করার সুবিধা, প্রায়শই প্রার্থনা করা পণ্য বা নিচে মূল্যে প্রবেশের সুবিধা ইত্যাদি।
                                 </p>
                             </Tabs.Item>
                             {/* For HTML */}

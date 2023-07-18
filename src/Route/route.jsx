@@ -11,6 +11,9 @@ import SocialMarketing from "../Pages/Marketing/SocialMarketing";
 import AffiliateMarketing from "../Pages/Marketing/AffiliateMarketing";
 import DropShipping from "../Pages/Marketing/DropShipping";
 import Education from "../Pages/Education/Education";
+import Terms from "../Pages/Terms/Terms";
+import Policy from "../Pages/Terms/Policy";
+import Career from "../Pages/Career/Career";
 
 export const router = createBrowserRouter([
     {
@@ -60,6 +63,18 @@ export const router = createBrowserRouter([
             {
                 path: "/ssc-and-hsc",
                 element: <Education />,
+            },
+            {
+                path: "/terms",
+                element: <Terms />,
+            },
+            {
+                path: "/policy",
+                element: <Policy />,
+            },
+            {
+                path: "/career",
+                element: <Career />,
             },
         ]
     },

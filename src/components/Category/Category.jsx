@@ -8,64 +8,64 @@ const Category = () => {
         {
             "id": 1,
             "name": "Web Development",
-            "description": "Learn Web Development and App Development, Build a tech-career now",
+            "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap.",
             "icon": "../../../cat-img/dev.png",
             "link": '/web-development'
         },
         {
             "id": 2,
             "name": "App Development",
-            "description": "Learn Web Development and App Development, Build a tech-career now",
+            "description": "Discover the latest app development tools, platform updates, training, and documentation for developers across every Android device.",
             "icon": "../../../cat-img/ai.png",
             "link": "/app-development"
         },
         {
             "id": 3,
             "name": "UI/UX Design",
-            "description": "Design products, increase demand internationally",
+            "description": "UI/UX. Design of a user interface and experience, designed for mobile devices, desktop screens, and more. magnifying glass Search all UI/UX Projects.",
             "icon": "../../../cat-img/design.png",
             "link": "/ui-ux"
         },
         {
             "id": 4,
             "name": "Graphics-design",
-            "description": "Become a successful corporate person by taking business and marketing-related courses.",
+            "description": "Graphic Design. Visual communication and problem-solving through the use of typography, photography, illustration, and more.",
             "icon": "../../../cat-img/design.png",
             "link": "/graphics-design"
         },
         {
             "id": 5,
             "name": "Lead Generation",
-            "description": "Become a successful corporate person by taking business and marketing-related courses.",
+            "description": "Lead generation is a marketing process of capturing potential consumers who show interest in your product or service.",
             "icon": "../../../cat-img/marketing.png",
             "link": "/lead-generation"
         },
         {
             "id": 6,
             "name": "Social Media Marketing",
-            "description": "Become a successful corporate person by taking business and marketing-related courses.",
-            "icon": "../../../cat-img/marketing.png",
+            "description": "Social media marketing is a form of digital marketing that leverages the power of popular social media networks to achieve your marketing and branding goals.",
+            "icon": "../../../cat-img/social.png",
             "link": "/social-media-marketing"
         },
         {
             "id": 7,
             "name": "Affiliate Marketing",
-            "description": "Become a successful corporate person by taking business and marketing-related courses.",
-            "icon": "../../../cat-img/marketing.png",
+            "description": "Affiliate marketing is a marketing arrangement in which affiliates receive a commission for each visit, signup or sale they generate for a merchant.",
+            "icon": "../../../cat-img/affi.png",
             "link": "/affiliate-marketing"
         },
         {
             "id": 8,
             "name": "Drop Shipping",
-            "description": "Become a successful corporate person by taking business and marketing-related courses.",
-            "icon": "../../../cat-img/marketing.png",
+            "description": "Dropshipping is a business model that allows you to sell products online without having to own or operate the physical location where those products are stored and processed. ",
+            "icon": "../../../cat-img/dropShipping.png",
             "link": "/drop-shipping"
         },
         {
             "id": 9,
             "name": "SSC / HSC Preparation",
-            "icon": "../../../cat-img/job.png",
-            "description": "Prepare yourself for success in the competitive job market",
+            "icon": "../../../cat-img/education.png",
+            "description": "A good preparation for SSC and HSC requires that a student regularly keeps up with their studies.",
             "link": "/ssc-and-hsc"
         }
     ]

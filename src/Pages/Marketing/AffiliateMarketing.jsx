@@ -1,5 +1,5 @@
 import { Button, Card, Tabs } from "flowbite-react";
-import { andriodRoadMap } from "../../../public";
+import { affi } from "../../../public";
 import marketingData from '../../../data/digitalMarketing.json'
 import { useMemo, useState } from "react";
 const AffiliateMarketing = () => {
@@ -15,7 +15,7 @@ const AffiliateMarketing = () => {
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white uppercase">WELCOME TO <br /> Affiliate Marketing WORLD !!</h1>
                     <div className="main-content-container mt-20">
                         <div className="top-content">
-                            <img src={andriodRoadMap} alt="" />
+                            <img src={affi} alt="" />
                         </div>
                     </div>
                     <div className='text-center mt-10'>
@@ -23,7 +23,7 @@ const AffiliateMarketing = () => {
                             <Tabs.Item active title="Know Here"
                             >
                                 <p className='text-left'>
-                                    খুব সহজ ভাষায় ফ্রন্ট এন্ড ডেভেলপমেন্ট হলো ইউজার এর জন্য দৃশ্যমান অংশ, যা ইউজার কতৃক ব্যবহৃত হয়। আর ব্যাক এন্ড ডেভেলপমেন্ট হলো ভিতরের কাজ যা সাধারন ওয়েবসাইট ব্যাবহারকারির অবগতিতে থাকে না।
+                                    এফিলিয়েট মার্কেটিং হল একটি ব্যবসায়িক মডেল, যেখানে ওয়েবসাইট বা অনলাইন প্ল্যাটফর্ম মাধ্যমে পন্য বা পরিষেবা প্রচার করা হয়। এই মডেলে, একটি অ্যাফিলিয়েট (প্রচারকারী) পণ্যের লিঙ্ক প্রদান করে এবং পণ্য বা পরিষেবা ক্রয় করার  একটি অংশ কমিশন পেতে সক্ষম হয়।
                                 </p>
                             </Tabs.Item>
                             {/* For HTML */}

@@ -1,15 +1,16 @@
 import Slider from "react-slick";
+import { ayman, farabi, price } from "../../../public";
 const Team = () => {
     const settings = {
         dots: false,
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        /* autoplay: true,
+        autoplay: true,
         speed: 2000,
         autoplaySpeed: 2000,
         cssEase: "linear",
-        pauseOnHover: true, */
+        pauseOnHover: true,
         responsive: [
             {
                 breakpoint: 1024,
@@ -52,34 +53,30 @@ const Team = () => {
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                                 <a href="https://rabbil.com/">RABBIL HASAN</a>
                             </h3>
-                            <p> Learn With Rabbil</p>
                         </div>
                     </div>
                     <div className="m-10">
                         <div className="text-center text-gray-500 main-border p-10 ml-10">
-                            <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+                            <img className="mx-auto mb-4 w-36 h-36 rounded-full" src={price} alt="Bonnie Avatar" />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
-                                <a href="#">Bonnie Green</a>
+                                <a href="https://www.youtube.com/@JamesPrinceB">James Prince</a>
                             </h3>
-                            <p>CEO/Co-founder</p>
                         </div>
                     </div>
                     <div className="m-10">
                         <div className="text-center text-gray-500 main-border p-10 mt-10 ml-10">
-                            <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+                            <img className="mx-auto mb-4 w-36 h-36 rounded-full" src={farabi} alt="Bonnie Avatar" />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
-                                <a href="#">Bonnie Green</a>
+                                <a href="https://www.youtube.com/@FarabisSmartDiary">Farabi</a>
                             </h3>
-                            <p>CEO/Co-founder</p>
                         </div>
                     </div>
                     <div className="m-10">
                         <div className="text-center text-gray-500 main-border p-10 ml-10">
-                            <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+                            <img className="mx-auto mb-4 w-36 h-36 rounded-full" src={ayman} alt="Bonnie Avatar" />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
-                                <a href="#">Bonnie Green</a>
+                                <a href="https://www.youtube.com/@10msmain">Ayman Sadiq</a>
                             </h3>
-                            <p>CEO/Co-founder</p>
                         </div>
                     </div>
 

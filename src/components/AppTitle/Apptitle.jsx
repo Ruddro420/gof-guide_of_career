@@ -1,5 +1,5 @@
 import { Tabs } from "flowbite-react";
-import { andriodRoadMap, ioSRoadMap } from "../../../public";
+import { andriod, ios } from "../../../public";
 import Andriod from "../../Pages/AppDev/Andriod";
 import Ios from "../../Pages/AppDev/Ios";
 
@@ -15,7 +15,7 @@ const Apptitle = () => {
 
                                 <div className="main-content-container mt-20">
                                     <div className="top-content">
-                                        <img src={andriodRoadMap} alt="" />
+                                        <img src={andriod} alt="" />
                                     </div>
                                     <div className="bottom-content mt-10">
                                         <Andriod />
@@ -25,7 +25,7 @@ const Apptitle = () => {
                             <Tabs.Item title="iOs">
                                 <div className="main-content-container mt-20">
                                     <div className="top-content">
-                                        <img src={ioSRoadMap} alt="" />
+                                        <img src={ios} alt="" />
                                     </div>
                                     <div className="bottom-content mt-10">
                                         <Ios />

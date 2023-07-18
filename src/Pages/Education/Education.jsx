@@ -1,5 +1,5 @@
 import { Button, Card, Tabs } from "flowbite-react";
-import { andriodRoadMap } from "../../../public";
+import { education } from "../../../public";
 import educationData from '../../../data/education.json'
 import { useMemo, useState } from "react";
 const Education = () => {
@@ -15,7 +15,7 @@ const Education = () => {
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white uppercase">WELCOME TO <br /> SSC/HSC Education WORLD !!</h1>
                     <div className="main-content-container mt-20">
                         <div className="top-content">
-                            <img src={andriodRoadMap} alt="" />
+                            <img src={education} alt="" />
                         </div>
                     </div>
                     <div className='text-center mt-10'>
@@ -23,7 +23,9 @@ const Education = () => {
                             <Tabs.Item active title="Know Here"
                             >
                                 <p className='text-left'>
-                                    খুব সহজ ভাষায় ফ্রন্ট এন্ড ডেভেলপমেন্ট হলো ইউজার এর জন্য দৃশ্যমান অংশ, যা ইউজার কতৃক ব্যবহৃত হয়। আর ব্যাক এন্ড ডেভেলপমেন্ট হলো ভিতরের কাজ যা সাধারন ওয়েবসাইট ব্যাবহারকারির অবগতিতে থাকে না।
+                                    এসএসসি (Secondary School Certificate) পরীক্ষা বাংলাদেশের মাধ্যমিক শিক্ষা ব্যবস্থার একটি গুরুত্বপূর্ণ অংশ।
+
+                                    এইচ এস সি (Higher Secondary School Certificate) পরীক্ষা বাংলাদেশের উচ্চ মাধ্যমিক শিক্ষা ব্যবস্থার একটি গুরুত্বপূর্ণ অংশ।
                                 </p>
                             </Tabs.Item>
                             {/* For HTML */}

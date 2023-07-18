@@ -2,7 +2,7 @@
 
 import { Tabs } from "flowbite-react";
 import FrontEnd from "../../Pages/WebDev/FrontEnd";
-import { backEndRoadMap, frontEndRoadMap } from "../../../public";
+import { backend, frontEndRoadMap } from "../../../public";
 import BackEnd from "../../Pages/WebDev/BackEnd";
 
 const TitleBar = () => {
@@ -27,7 +27,7 @@ const TitleBar = () => {
                             <Tabs.Item title="Back End">
                                 <div className="main-content-container mt-20">
                                     <div className="top-content">
-                                        <img src={backEndRoadMap} alt="" />
+                                        <img src={backend} alt="" />
                                     </div>
                                     <div className="bottom-content mt-10">
                                         <BackEnd />
