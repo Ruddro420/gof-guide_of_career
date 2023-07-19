@@ -11,11 +11,13 @@ const Header = () => {
                     rounded
                 >
                     <Navbar.Brand href="/">
-                        <img
+                       <Link to='/'>
+                       <img
                             alt="Flowbite React Logo"
                             className="mr-3 h-6 sm:h-9"
                             src={logo}
                         />
+                       </Link>
                     </Navbar.Brand>
                     <div className="flex md:order-2">
                         <Button >

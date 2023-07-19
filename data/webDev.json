@@ -95,12 +95,6 @@
                         "name": "Stack Learner",
                         "link": "https://www.youtube.com/embed/videoseries?list=PL_XxuZqN0xVBr2NqbL3q71nk5FX8zB0nK",
                         "cLink": "https://www.youtube.com/@StackLearner"
-                    },
-                    {
-                        "id": 3,
-                        "name": "Procoder BD",
-                        "link": "https://www.youtube.com/embed/videoseries?list=PLSNRR4BKcowASvSK4qx9Nz9MNTJC9Up67",
-                        "cLink": "https://www.youtube.com/@ProcoderBD"
                     }
                 ]
             },
@@ -120,12 +114,6 @@
                         "name": "Procoder BD",
                         "link": "https://www.youtube.com/embed/7lmoLxbUENM",
                         "cLink": "https://www.youtube.com/@ProcoderBD"
-                    },
-                    {
-                        "id": 2,
-                        "name": "College Wallah",
-                        "link": "https://www.youtube.com/embed/_9mTJ84uL1Q",
-                        "cLink": "https://www.youtube.com/@CollegeWallahbyPW"
                     }
                 ]
             },
@@ -191,12 +179,6 @@
                         "cLink": "https://www.youtube.com/@HabluProgrammer"
                     },
                     {
-                        "id": 2,
-                        "name": "Procoder BD",
-                        "link": "https://www.youtube.com/embed/M-qSAdWFs9c",
-                        "cLink": "https://www.youtube.com/@ProcoderBD"
-                    },
-                    {
                         "id": 3,
                         "name": "Learn with Sumit - LWS",
                         "link": "https://www.youtube.com/embed/oe21Nlq8GS4",
@@ -220,12 +202,6 @@
                         "name": "Learn with Sumit - LWS - Bangladesh",
                         "link":"https://www.youtube.com/embed/WC-g0JtEIwM",
                         "cLink":"https://www.youtube.com/@LearnwithSumit"
-                    },
-                    {
-                        "id":2,
-                        "name": "Rabbil Hasan",
-                        "link":"https://www.youtube.com/embed/nlq9niwtDS0",
-                        "cLink":"https://www.youtube.com/@RabbilHasanRupom"
                     },
                     {
                         "id":3,
